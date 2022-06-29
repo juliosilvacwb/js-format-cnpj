@@ -1,15 +1,19 @@
 {
   "name": "js-format-cnpj",
   "version": "1.3.0",
-  "description": "",
+  "description": "Lib to format CNPJ",
   "main": "dist/index.js",
   "types" : "dist/index.d.ts",
   "scripts": {
     "test": "jest --no-cache",
     "build": "tsc --declaration"
   },
-  "keywords": ["cnpj", "format", "formatar"],
-  "author": "",
+  "keywords": [
+    "cnpj", 
+    "format", 
+    "formatar"
+  ],
+  "author": "Julio Silva",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^28.1.3",
