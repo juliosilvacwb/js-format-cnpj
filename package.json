@@ -1,5 +1,5 @@
 {
-  "name": "hx-format-cnpj",
+  "name": "js-format-cnpj",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
