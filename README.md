@@ -13,7 +13,7 @@ Output:
 #### Typescript example:
 ```ts 
 import { formatCNPJ } from 'js-format-cnpj'
-console.log(cnpj.formatCNPJ("49623477000112")
+console.log(formatCNPJ("49623477000112")
 ```
 
 Output:
