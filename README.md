@@ -3,7 +3,7 @@
 Lib to format CNPJ
 
 #### Javascript example:
-```
+```js
 const cnpj = require('js-format-cnpj');  
 console.log(cnpj.formatCNPJ("49623477000112"))
 ``` 
