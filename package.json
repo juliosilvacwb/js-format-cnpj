@@ -1,6 +1,6 @@
 {
   "name": "js-format-cnpj",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "",
   "main": "dist/index.js",
   "types" : "dist/index.d.ts",
@@ -8,7 +8,7 @@
     "test": "jest --no-cache",
     "build": "tsc --declaration"
   },
-  "keywords": [],
+  "keywords": ["cnpj", "format", "formatar"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
