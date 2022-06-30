@@ -1,4 +1,4 @@
-export function formatCNPJ(cnpj?: string) {
+export function formatCNPJ(cnpj: string): string {
     if (!cnpj) return cnpj;
     let digits = cnpj.replace(/\D/g, "");
     if (digits.length !== 14) return cnpj;

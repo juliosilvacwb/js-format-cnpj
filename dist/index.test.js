@@ -15,6 +15,6 @@ describe('Tests for formatCNPJ', () => {
         expect((0, index_1.formatCNPJ)('10')).toBe('10');
     });
     test('should return undefined when param is undefined', () => {
-        expect((0, index_1.formatCNPJ)(undefined)).toBe(undefined);
+        expect((0, index_1.formatCNPJ)('')).toBe('');
     });
 });

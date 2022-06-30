@@ -19,7 +19,7 @@ describe('Tests for formatCNPJ', () => {
     });
 
     test('should return undefined when param is undefined', () => {
-        expect(formatCNPJ(undefined)).toBe(undefined);
+        expect(formatCNPJ('')).toBe('');
     });
     
 });
